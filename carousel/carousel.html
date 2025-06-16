@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Manip DOM</title>
+</head>
+
+<body>
+    <h1>Carousel</h1>
+    <!-- Bouton de retour à l'accueil -->
+    <div class="retour"><a href="../index.html">&#x21A9</a></div>
+
+    <div class="carousel">
+        <!-- Boutons pour avancer et reculer dans le carousel -->
+        <button class="btn" id="prev">&#10096</button>
+        <button class="btn" id="next">&#10097</button>
+        <!-- Liste des images du carousel -->
+        <ul>
+            <li class="slide"><img src="images/f16.jpg" alt="image de f16"></li>
+            <li class="slide active"><img src="images/rafale.jpg" alt="image de rafale"></li>
+            <li class="slide"><img src="images/sr71.jpg" alt="image de sr71"></li>
+        </ul>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

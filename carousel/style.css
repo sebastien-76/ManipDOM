@@ -1,0 +1,66 @@
+.retour {
+    height: 5vh;
+    text-align: end;
+    margin-right: 5rem;
+}
+
+.retour a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.carousel {
+    margin: 0 auto;
+    width: 50vw;
+    height: 75vh;
+    position: relative;
+}
+
+.carousel ul {
+    padding :0;
+}
+
+.carousel button {
+    position:absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#prev {
+    left: -3rem;
+}   
+
+#next {
+    right: -3rem;
+}
+
+.carousel li {
+    list-style: none;
+    height: 100%;
+    width: 100%;
+}
+
+.slide {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease-in-out
+}
+
+.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
