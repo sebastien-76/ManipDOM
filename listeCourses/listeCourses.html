@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Manip DOM</title>
+</head>
+
+<body>
+    <h1>Liste de courses</h1>
+
+    <!-- Bouton de retour à l'accueil -->
+    <div class="retour"><a href="../index.html">&#x21A9</a></div>
+
+    <!-- Ajout de courses -->
+    <h2>Ajouter une course</h2>
+    <input type="text" id="texteCourse">
+    <button id="boutonAjout">Valider</button>
+
+    <!--Liste des courses -->
+    <h2>Liste</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>N°</th>
+                <th>Courses</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+
+    </table>
+
+    <!-- Modification de course -->
+    <h2>Modifier une course</h2>
+    <input type="text" id="modificationNoCourse" required placeholder="Entrez le n° de la course">
+    <input type="text" id="modificationTextCourse" required placeholder="Entrez le texte à modifier">
+    <button id="boutonModification">Valider</button>
+
+    <!--Suppression de course -->
+    <h2>Supprimer une course</h2>
+    <input type="text" id="suppressionCourse" placeholder="Entrez le n° de la course">
+    <button id="boutonSuppression">Valider</button>
+
+    <!--Suppression de course -->
+    <h2>Reset liste</h2>
+    <button id="boutonReset">Reset liste des courses</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

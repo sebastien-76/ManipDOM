@@ -1,0 +1,33 @@
+.retour {
+    height: 5vh;
+    text-align: end;
+    margin-right: 5rem;
+}
+
+.retour a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+input {
+    margin-right: 2rem;
+} 
+
+table {
+    margin-top: 5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+tr {
+    margin: 5rem;
+}
+
+td {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
